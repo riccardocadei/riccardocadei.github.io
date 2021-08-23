@@ -1239,7 +1239,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .accordion {
   background-color: white;
-  color: white;
+  color: rgb(231, 231, 231);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -1258,7 +1258,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .panel {
   padding: 0 18px;
   display: none;
-  background-color: white;
+  background-color: rgb(231, 231, 231);
   overflow: hidden;
 }
 
