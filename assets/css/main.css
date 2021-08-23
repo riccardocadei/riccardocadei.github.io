@@ -11259,7 +11259,7 @@ progress::-moz-progress-bar { background-color: #b71c1c; }
 
 .bibliography-year { color: #ddd; text-align: right; }
 
-.field { color: #ddd; text-align: left; }
+.field { color: rgb(128, 128, 128); text-align: left; }
 
 .bibliography li .title { font-weight: bolder; }
 .bibliography li .author a { color: #3c4858; border-bottom: 1px dashed; }
