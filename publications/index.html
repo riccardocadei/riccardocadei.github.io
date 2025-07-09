@@ -29,38 +29,32 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item ">
+
+          <li class="nav-item navbar-active font-weight-bold">
             <a class="nav-link" href="/">
               About
-              
+            </a>
+          </li>   
+          
+          <li class="nav-item ">
+            <a class="nav-link" href="/publications/">
+              Publications
+              <span class="sr-only">(current)</span>
             </a>
           </li>
- 
+
+           <li class="nav-item ">
+            <a class="nav-link" href="/cv/">
+              CV
+            </a>
+          </li>
+      
+          <li class="nav-item ">
+            <a class="nav-link" href="/projects/">
+              Projects
+            </a>
+          </li>
             
-              <li class="nav-item ">
-                  <a class="nav-link" href="/projects/">
-                    Projects
-                  </a>
-              </li>
-            
-          
-            
-              <li class="nav-item navbar-active font-weight-bold">
-                  <a class="nav-link" href="/publications/">
-                    Publications
-                      <span class="sr-only">(current)</span>
-                  </a>
-              </li>
-            
-            
-              
-              <li class="nav-item ">
-                  <a class="nav-link" href="/cv/">
-                    CV
-                  </a>
-              </li>
-            
-          
         </ul>
       </div>
     </div>
@@ -109,6 +103,53 @@
   <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
     <div class="col-sm-11 p-0">
 
+      <!--Yao 2025 arXiv-->
+      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
+        <div class="col-sm-1 p-0 abbr">
+          <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://arxiv.org/" target="_blank">
+          arXiv
+          </a>
+        </div>
+        
+        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+          <div id="yao2025third" class="col p-0">
+            <h5 class="title mb-0">The Third Pillar of Causal Analysis? A Measurement Perspective on Causal Representations
+            </h5>
+            <div class="author">
+              <em> 
+                Dingling Yao;
+                Shimeng Huang;
+                <b>Riccardo Cadei</b>;
+                Kun Zhang;
+                Francesco Locatello
+              </em>  
+            </div>
+
+            <div><p class="periodical font-italic">
+              arXiv (under review) <br>
+              Workshop on Scaling Up Intervention Models at ICML, 2025
+              </p>
+            </div>
+    
+            <div class="col p-0">
+              <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#yao2025third-abstract" role="button" aria-expanded="false" aria-controls="yao2024unifying-abstract">Abstract</a>
+              <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/abs/2505.17708" target="_blank">Paper</a>
+              <!-- <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/CausalLearningAI/ISTAnt" target="_blank">Code</a> -->
+              <a class="badge grey waves-effect font-weight-light mr-1" href="https://openreview.net/forum?id=VBiEZdYagz" target="_blank">Short Version (ICML'25)</a>
+              <!-- <a class="badge grey waves-effect font-weight-light mr-1" href="https://nsaph-software.github.io/CRE/" target="_blank">Website</a> -->
+            </div>
+    
+            <div class="col mt-2 p-0">
+              <div id="yao2025third-abstract" class="collapse">
+                <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                  Causal reasoning and discovery, two fundamental tasks of causal analysis, often face challenges in applications due to the complexity, noisiness, and high-dimensionality of real-world data. Despite recent progress in identifying latent causal structures using causal representation learning (CRL), what makes learned representations useful for causal downstream tasks and how to evaluate them are still not well understood. In this paper, we reinterpret CRL using a measurement model framework, where the learned representations are viewed as proxy measurements of the latent causal variables. Our approach clarifies the conditions under which learned representations support downstream causal reasoning and provides a principled basis for quantitatively assessing the quality of representations using a new Test-based Measurement EXclusivity (T-MEX) score. We validate T-MEX across diverse causal inference scenarios, including numerical simulations and real-world ecological video analysis, demonstrating that the proposed framework and corresponding score effectively assess the identification of learned representations and their usefulness for causal downstream tasks.</div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div></li>
+
       <!--Cadei 2025 ICML-->
       <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
         <div class="col-sm-1 p-0 abbr">
@@ -144,14 +185,15 @@
               <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/abs/2502.06343" target="_blank">Paper</a>
               <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/CausalLearningAI/causal-lifting" target="_blank">Code</a>
               <a class="badge grey waves-effect font-weight-light mr-1" href="https://figshare.com/s/9a490b6f6eeebd73350b" target="_blank">Data</a>
-              <!-- <a class="badge grey waves-effect font-weight-light mr-1" href="https://openreview.net/forum?id=HQSaQPOcyP&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FWorkshop%2FXAI4Science%2FAuthors%23your-submissions)" target="_blank">Short Version (ICLR'25)</a> -->
+              <a class="badge grey waves-effect font-weight-light mr-1" href="https://openreview.net/forum?id=HQSaQPOcyP&referrer=%5Bthe%20profile%20of%20Sylvia%20Cremer%5D(%2Fprofile%3Fid%3D~Sylvia_Cremer1)" target="_blank">Short Version (ICLR'25)</a>
               <!-- <a class="badge grey waves-effect font-weight-light mr-1" href="https://nsaph-software.github.io/CRE/" target="_blank">Website</a> -->
             </div>
     
             <div class="col mt-2 p-0">
               <div id="cadei2025causallifting-abstract" class="collapse">
                 <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  A plethora of real-world scientific investigations is waiting to scale with the support of trustworthy predictive models that can reduce the need for costly data annotations. We focus on causal inferences on a target experiment with unlabeled factual outcomes, retrieved by a predictive model fine-tuned on a labeled similar experiment. First, we show that factual outcome estimation via Empirical Risk Minimization (ERM) may fail to yield valid causal inferences on the target population, even in a randomized controlled experiment and infinite training samples. Then, we propose to leverage the observed experimental settings during training to empower generalization to downstream interventional investigations, "Causal Lifting" the predictive model. We propose Deconfounded Empirical Risk Minimization (DERM), a new simple learning procedure minimizing the risk over a fictitious target population, preventing potential confounding effects. We validate our method on both synthetic and real-world scientific data. Notably, for the first time, we zero-shot generalize causal inferences on ISTAnt dataset (without annotation) by causal lifting a predictive model on our experiment variant.              </div>
+                   In many scientific domains, the cost of data annotation limits the scale and pace of experimentation. Yet, modern machine learning systems offer a promising alternative, provided their predictions yield correct conclusions. We focus on Prediction-Powered Causal Inferences (PPCI), i.e., estimating the treatment effect in a target experiment with unlabeled factual outcomes, retrievable zero-shot from a pre-trained model. We first identify the conditional calibration property to guarantee valid PPCI at population level. Then, we introduce causal lifting, a new causal lifting constraint transferring validity across experiments, which we propose to enforce in practice in Deconfounded Empirical Risk Minimization, our new model-agnostic training objective. We validate our method on synthetic and real-world scientific data, offering solutions to instances not solvable by vanilla Empirical Risk Minimization and invariant training. In particular, we solve zero-shot PPCI on the ISTAnt dataset for the first time, fine-tuning a foundational model on our replica dataset of their ecological experiment with a different recording platform and treatment.    
+                </div>
             </div>
             
           </div>
