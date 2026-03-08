@@ -259,7 +259,7 @@
         
         <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
           <div id="tortu2024nct" class="col p-0">
-            <h5 class="title mb-0">Causal Lifting of Neural Representations: Zero-Shot Generalization for Causal Inferences
+            <h5 class="title mb-0">Prediction-Powered Causal Inference
             </h5>
             <div class="author">
               <em> 
@@ -291,8 +291,7 @@
             <div class="col mt-2 p-0">
               <div id="cadei2025causallifting-abstract" class="collapse">
                 <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                   In many scientific domains, the cost of data annotation limits the scale and pace of experimentation. Yet, modern machine learning systems offer a promising alternative, provided their predictions yield correct conclusions. We focus on Prediction-Powered Causal Inferences (PPCI), i.e., estimating the treatment effect in a target experiment with unlabeled factual outcomes, retrievable zero-shot from a pre-trained model. We first identify the conditional calibration property to guarantee valid PPCI at population level. Then, we introduce causal lifting, a new causal lifting constraint transferring validity across experiments, which we propose to enforce in practice in Deconfounded Empirical Risk Minimization, our new model-agnostic training objective. We validate our method on synthetic and real-world scientific data, offering solutions to instances not solvable by vanilla Empirical Risk Minimization and invariant training. In particular, we solve zero-shot PPCI on the ISTAnt dataset for the first time, fine-tuning a foundational model on our replica dataset of their ecological experiment with a different recording platform and treatment.    
-                </div>
+                   In many scientific experiments, the data annotating cost constraints the pace for testing novel hypotheses. Yet, modern machine learning pipelines offer a promising solution, provided their predictions yield correct conclusions. We focus on Prediction-Powered Causal Inferences (PPCI), i.e., estimating the treatment effect in an unlabeled target experiment, relying on training data with the same outcome annotated but potentially different treatment or effect modifiers. We first show that conditional calibration guarantees valid PPCI at population level. Then, we introduce a sufficient representation constraint transferring validity across experiments, which we propose to enforce in practice in Deconfounded Empirical Risk Minimization, our new model-agnostic training objective. We validate our method on synthetic and real-world scientific data, solving impossible problem instances for Empirical Risk Minimization even with standard invariance constraints. In particular, for the first time, we achieve valid causal inference on a scientific experiment with complex recording and no human annotations, fine-tuning a foundational model on our similar annotated experiment.
             </div>
             
           </div>
