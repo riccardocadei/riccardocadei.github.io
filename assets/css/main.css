@@ -11266,7 +11266,8 @@ a:hover { text-decoration: none; }
 .li-icon { background: #0e76a8; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .li-icon:hover { background: #2eb0ee; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
 
-.x-icon { width: 0.875em; height: 1em; vertical-align: -0.125em; color: #000; }
+.x-icon-link { display: inline-flex; align-items: center; line-height: 1; }
+.x-icon { display: block; width: 0.88em; height: 0.88em; color: #000; }
 .x-icon-link:hover .x-icon { color: #555; text-decoration: none; }
 
 .fb-icon { background: #3b5998; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
@@ -14225,7 +14226,8 @@ a:hover { text-decoration: none; }
 .li-icon { background: #0e76a8; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .li-icon:hover { background: #2eb0ee; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
 
-.x-icon { width: 0.875em; height: 1em; vertical-align: -0.125em; color: #000; }
+.x-icon-link { display: inline-flex; align-items: center; line-height: 1; }
+.x-icon { display: block; width: 0.88em; height: 0.88em; color: #000; }
 .x-icon-link:hover .x-icon { color: #555; text-decoration: none; }
 
 .fb-icon { background: #3b5998; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
